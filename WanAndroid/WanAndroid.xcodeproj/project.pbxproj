@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB03518827B2575700E0D731 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB03518727B2575700E0D731 /* AppDelegate.m */; };
+		DB03519327B2575800E0D731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB03519227B2575800E0D731 /* Assets.xcassets */; };
+		DB03519627B2575800E0D731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB03519427B2575800E0D731 /* LaunchScreen.storyboard */; };
+		DB03519927B2575800E0D731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB03519827B2575800E0D731 /* main.m */; };
+		DB0351A327B2575800E0D731 /* WanAndroidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0351A227B2575800E0D731 /* WanAndroidTests.m */; };
+		DB0351AE27B2575800E0D731 /* WanAndroidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0351AD27B2575800E0D731 /* WanAndroidUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB03519F27B2575800E0D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB03517B27B2575700E0D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB03518227B2575700E0D731;
+			remoteInfo = WanAndroid;
+		};
+		DB0351AA27B2575800E0D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB03517B27B2575700E0D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB03518227B2575700E0D731;
+			remoteInfo = WanAndroid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB03518327B2575700E0D731 /* WanAndroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB03518627B2575700E0D731 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB03518727B2575700E0D731 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB03519227B2575800E0D731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB03519527B2575800E0D731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB03519727B2575800E0D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB03519827B2575800E0D731 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB03519E27B2575800E0D731 /* WanAndroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0351A227B2575800E0D731 /* WanAndroidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanAndroidTests.m; sourceTree = "<group>"; };
+		DB0351A427B2575800E0D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0351A927B2575800E0D731 /* WanAndroidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0351AD27B2575800E0D731 /* WanAndroidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanAndroidUITests.m; sourceTree = "<group>"; };
+		DB0351AF27B2575800E0D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB03518027B2575700E0D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB03519B27B2575800E0D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0351A627B2575800E0D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB03517A27B2575700E0D731 = {
+			isa = PBXGroup;
+			children = (
+				DB03518527B2575700E0D731 /* WanAndroid */,
+				DB0351A127B2575800E0D731 /* WanAndroidTests */,
+				DB0351AC27B2575800E0D731 /* WanAndroidUITests */,
+				DB03518427B2575700E0D731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB03518427B2575700E0D731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB03518327B2575700E0D731 /* WanAndroid.app */,
+				DB03519E27B2575800E0D731 /* WanAndroidTests.xctest */,
+				DB0351A927B2575800E0D731 /* WanAndroidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB03518527B2575700E0D731 /* WanAndroid */ = {
+			isa = PBXGroup;
+			children = (
+				DB03518627B2575700E0D731 /* AppDelegate.h */,
+				DB03518727B2575700E0D731 /* AppDelegate.m */,
+				DB03519227B2575800E0D731 /* Assets.xcassets */,
+				DB03519427B2575800E0D731 /* LaunchScreen.storyboard */,
+				DB03519727B2575800E0D731 /* Info.plist */,
+				DB03519827B2575800E0D731 /* main.m */,
+			);
+			path = WanAndroid;
+			sourceTree = "<group>";
+		};
+		DB0351A127B2575800E0D731 /* WanAndroidTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0351A227B2575800E0D731 /* WanAndroidTests.m */,
+				DB0351A427B2575800E0D731 /* Info.plist */,
+			);
+			path = WanAndroidTests;
+			sourceTree = "<group>";
+		};
+		DB0351AC27B2575800E0D731 /* WanAndroidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0351AD27B2575800E0D731 /* WanAndroidUITests.m */,
+				DB0351AF27B2575800E0D731 /* Info.plist */,
+			);
+			path = WanAndroidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB03518227B2575700E0D731 /* WanAndroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0351B227B2575800E0D731 /* Build configuration list for PBXNativeTarget "WanAndroid" */;
+			buildPhases = (
+				DB03517F27B2575700E0D731 /* Sources */,
+				DB03518027B2575700E0D731 /* Frameworks */,
+				DB03518127B2575700E0D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanAndroid;
+			productName = WanAndroid;
+			productReference = DB03518327B2575700E0D731 /* WanAndroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB03519D27B2575800E0D731 /* WanAndroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0351B527B2575800E0D731 /* Build configuration list for PBXNativeTarget "WanAndroidTests" */;
+			buildPhases = (
+				DB03519A27B2575800E0D731 /* Sources */,
+				DB03519B27B2575800E0D731 /* Frameworks */,
+				DB03519C27B2575800E0D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0351A027B2575800E0D731 /* PBXTargetDependency */,
+			);
+			name = WanAndroidTests;
+			productName = WanAndroidTests;
+			productReference = DB03519E27B2575800E0D731 /* WanAndroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB0351A827B2575800E0D731 /* WanAndroidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0351B827B2575800E0D731 /* Build configuration list for PBXNativeTarget "WanAndroidUITests" */;
+			buildPhases = (
+				DB0351A527B2575800E0D731 /* Sources */,
+				DB0351A627B2575800E0D731 /* Frameworks */,
+				DB0351A727B2575800E0D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0351AB27B2575800E0D731 /* PBXTargetDependency */,
+			);
+			name = WanAndroidUITests;
+			productName = WanAndroidUITests;
+			productReference = DB0351A927B2575800E0D731 /* WanAndroidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB03517B27B2575700E0D731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DB03518227B2575700E0D731 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DB03519D27B2575800E0D731 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DB03518227B2575700E0D731;
+					};
+					DB0351A827B2575800E0D731 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DB03518227B2575700E0D731;
+					};
+				};
+			};
+			buildConfigurationList = DB03517E27B2575700E0D731 /* Build configuration list for PBXProject "WanAndroid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB03517A27B2575700E0D731;
+			productRefGroup = DB03518427B2575700E0D731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB03518227B2575700E0D731 /* WanAndroid */,
+				DB03519D27B2575800E0D731 /* WanAndroidTests */,
+				DB0351A827B2575800E0D731 /* WanAndroidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB03518127B2575700E0D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB03519627B2575800E0D731 /* LaunchScreen.storyboard in Resources */,
+				DB03519327B2575800E0D731 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB03519C27B2575800E0D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0351A727B2575800E0D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB03517F27B2575700E0D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB03518827B2575700E0D731 /* AppDelegate.m in Sources */,
+				DB03519927B2575800E0D731 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB03519A27B2575800E0D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0351A327B2575800E0D731 /* WanAndroidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0351A527B2575800E0D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0351AE27B2575800E0D731 /* WanAndroidUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0351A027B2575800E0D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB03518227B2575700E0D731 /* WanAndroid */;
+			targetProxy = DB03519F27B2575800E0D731 /* PBXContainerItemProxy */;
+		};
+		DB0351AB27B2575800E0D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB03518227B2575700E0D731 /* WanAndroid */;
+			targetProxy = DB0351AA27B2575800E0D731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB03519427B2575800E0D731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB03519527B2575800E0D731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0351B027B2575800E0D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB0351B127B2575800E0D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0351B327B2575800E0D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WanAndroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.WanAndroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0351B427B2575800E0D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WanAndroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.WanAndroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB0351B627B2575800E0D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WanAndroidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.WanAndroidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid.app/WanAndroid";
+			};
+			name = Debug;
+		};
+		DB0351B727B2575800E0D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WanAndroidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.WanAndroidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid.app/WanAndroid";
+			};
+			name = Release;
+		};
+		DB0351B927B2575800E0D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WanAndroidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.WanAndroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WanAndroid;
+			};
+			name = Debug;
+		};
+		DB0351BA27B2575800E0D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WanAndroidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roger.WanAndroidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WanAndroid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB03517E27B2575700E0D731 /* Build configuration list for PBXProject "WanAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0351B027B2575800E0D731 /* Debug */,
+				DB0351B127B2575800E0D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0351B227B2575800E0D731 /* Build configuration list for PBXNativeTarget "WanAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0351B327B2575800E0D731 /* Debug */,
+				DB0351B427B2575800E0D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0351B527B2575800E0D731 /* Build configuration list for PBXNativeTarget "WanAndroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0351B627B2575800E0D731 /* Debug */,
+				DB0351B727B2575800E0D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0351B827B2575800E0D731 /* Build configuration list for PBXNativeTarget "WanAndroidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0351B927B2575800E0D731 /* Debug */,
+				DB0351BA27B2575800E0D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB03517B27B2575700E0D731 /* Project object */;
+}
