@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93457626F71588550CD0EE6F /* libPods-WanAndroid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F013150C5016E38CF54369D7 /* libPods-WanAndroid.a */; };
 		DB03518827B2575700E0D731 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB03518727B2575700E0D731 /* AppDelegate.m */; };
 		DB03519327B2575800E0D731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB03519227B2575800E0D731 /* Assets.xcassets */; };
 		DB03519627B2575800E0D731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB03519427B2575800E0D731 /* LaunchScreen.storyboard */; };
 		DB03519927B2575800E0D731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB03519827B2575800E0D731 /* main.m */; };
 		DB0351A327B2575800E0D731 /* WanAndroidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0351A227B2575800E0D731 /* WanAndroidTests.m */; };
 		DB0351AE27B2575800E0D731 /* WanAndroidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0351AD27B2575800E0D731 /* WanAndroidUITests.m */; };
+		DB1E216E27B3925200D733BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1E216D27B3925200D733BA /* Main.storyboard */; };
+		DB1E217127B3A73000D733BA /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1E217027B3A73000D733BA /* HomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E2E98D8C58F242A7727DEF7 /* Pods-WanAndroid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid.debug.xcconfig"; path = "Target Support Files/Pods-WanAndroid/Pods-WanAndroid.debug.xcconfig"; sourceTree = "<group>"; };
+		B3A01BAD035F5FE2ECC7D9AE /* Pods-WanAndroid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanAndroid.release.xcconfig"; path = "Target Support Files/Pods-WanAndroid/Pods-WanAndroid.release.xcconfig"; sourceTree = "<group>"; };
 		DB03518327B2575700E0D731 /* WanAndroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB03518627B2575700E0D731 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB03518727B2575700E0D731 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +51,10 @@
 		DB0351A927B2575800E0D731 /* WanAndroidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0351AD27B2575800E0D731 /* WanAndroidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanAndroidUITests.m; sourceTree = "<group>"; };
 		DB0351AF27B2575800E0D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1E216D27B3925200D733BA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB1E216F27B3A73000D733BA /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		DB1E217027B3A73000D733BA /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		F013150C5016E38CF54369D7 /* libPods-WanAndroid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WanAndroid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93457626F71588550CD0EE6F /* libPods-WanAndroid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18F72A503C7352D7E23694BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E2E98D8C58F242A7727DEF7 /* Pods-WanAndroid.debug.xcconfig */,
+				B3A01BAD035F5FE2ECC7D9AE /* Pods-WanAndroid.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB03517A27B2575700E0D731 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +100,8 @@
 				DB0351A127B2575800E0D731 /* WanAndroidTests */,
 				DB0351AC27B2575800E0D731 /* WanAndroidUITests */,
 				DB03518427B2575700E0D731 /* Products */,
+				18F72A503C7352D7E23694BB /* Pods */,
+				FA9707E27ABC15D3AE5585B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +118,8 @@
 		DB03518527B2575700E0D731 /* WanAndroid */ = {
 			isa = PBXGroup;
 			children = (
+				DB1E216727B391ED00D733BA /* UI */,
+				DB1E216627B391E600D733BA /* Model */,
 				DB03518627B2575700E0D731 /* AppDelegate.h */,
 				DB03518727B2575700E0D731 /* AppDelegate.m */,
 				DB03519227B2575800E0D731 /* Assets.xcassets */,
@@ -124,6 +148,71 @@
 			path = WanAndroidUITests;
 			sourceTree = "<group>";
 		};
+		DB1E216627B391E600D733BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB1E216727B391ED00D733BA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DB1E216C27B3923800D733BA /* Home */,
+				DB1E216B27B3922C00D733BA /* Plaza */,
+				DB1E216A27B3922200D733BA /* Group */,
+				DB1E216927B3921400D733BA /* Tree */,
+				DB1E216827B391F300D733BA /* Project */,
+				DB1E216D27B3925200D733BA /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DB1E216827B391F300D733BA /* Project */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		DB1E216927B3921400D733BA /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		DB1E216A27B3922200D733BA /* Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		DB1E216B27B3922C00D733BA /* Plaza */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plaza;
+			sourceTree = "<group>";
+		};
+		DB1E216C27B3923800D733BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB1E216F27B3A73000D733BA /* HomeTableViewController.h */,
+				DB1E217027B3A73000D733BA /* HomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA9707E27ABC15D3AE5585B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F013150C5016E38CF54369D7 /* libPods-WanAndroid.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB0351B227B2575800E0D731 /* Build configuration list for PBXNativeTarget "WanAndroid" */;
 			buildPhases = (
+				6AF398B761F2E8A00D5B43DB /* [CP] Check Pods Manifest.lock */,
 				DB03517F27B2575700E0D731 /* Sources */,
 				DB03518027B2575700E0D731 /* Frameworks */,
 				DB03518127B2575700E0D731 /* Resources */,
@@ -226,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1E216E27B3925200D733BA /* Main.storyboard in Resources */,
 				DB03519627B2575800E0D731 /* LaunchScreen.storyboard in Resources */,
 				DB03519327B2575800E0D731 /* Assets.xcassets in Resources */,
 			);
@@ -247,12 +338,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AF398B761F2E8A00D5B43DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanAndroid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB03517F27B2575700E0D731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB03518827B2575700E0D731 /* AppDelegate.m in Sources */,
+				DB1E217127B3A73000D733BA /* HomeTableViewController.m in Sources */,
 				DB03519927B2575800E0D731 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +531,7 @@
 		};
 		DB0351B327B2575800E0D731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2E98D8C58F242A7727DEF7 /* Pods-WanAndroid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -431,6 +549,7 @@
 		};
 		DB0351B427B2575800E0D731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A01BAD035F5FE2ECC7D9AE /* Pods-WanAndroid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
